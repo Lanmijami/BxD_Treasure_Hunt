@@ -79,3 +79,33 @@ body {
   right: 300px;
   top: 50px;
 }
+
+@media (max-width: 768px) {
+  .bxd-logo {
+    padding-left: -120px;
+  }
+
+  #bxd-gear,
+  #bxd-text {
+    scale: 0.6;
+    left: 0;
+  }
+
+  #bxd-text {
+    left: 20px;
+  }
+
+  #link {
+    font-size: 2rem;
+    right: 100px;
+    top: 80px;
+  }
+
+  .div-holder {
+    flex-direction: column;
+  }
+
+  .div-winners {
+    width: 90vw;
+  }
+}
