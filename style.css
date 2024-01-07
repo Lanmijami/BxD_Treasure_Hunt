@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Orbitron&family=Poppins:wght@400;700;800&family=Roboto:wght@300;400;500;700&family=Ubuntu:wght@400;500;700&display=swap');
+* {
+  padding: none;
+  margin: none;
+  color: var(--plava);
+  font-family: 'Roboto', sans-serif;
+  --plava: #0c2a5e;
+  --crvena: #751214;
+}
+
+@keyframes gear {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background-color: black;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.bxd-logo {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+#bxd-gear {
+  position: absolute;
+  left: 100px;
+  top: 20px;
+  animation-name: gear;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  scale: 1.2;
+}
+
+#bxd-text {
+  position: absolute;
+  left: 220px;
+  top: 100px;
+  scale: 1.2;
+}
+
+.winners {
+  padding-top: 20rem;
+}
+
+.div-holder {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.div-holder > div > h2 {
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.div-winners {
+  border: 2px solid var(--crvena);
+  border-radius: 20px;
+  height: 55vh;
+  width: 30vw;
+}
+
+#link {
+  color: var(--plava);
+  font-size: 3rem;
+
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
