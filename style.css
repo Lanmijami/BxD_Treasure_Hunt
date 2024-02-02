@@ -109,7 +109,39 @@ body {
   padding: 1rem;
 }
 
+@media (max-width: 1250px) {
+  .div-helper {
+    font-size: 2rem;
+  }
+  .input-div {
+    font-size: 1.5rem;
+    right: 100px;
+
+    top: 230px;
+  }
+}
+
+@media (max-width: 950px) {
+  .input-div {
+    font-size: 1.3rem;
+    right: 40px;
+
+    top: 230px;
+  }
+}
+
 @media (max-width: 768px) {
+  .input-div {
+    font-size: 1rem;
+    right: 100px;
+
+    top: 230px;
+  }
+
+  .div-helper {
+    font-size: 1rem;
+  }
+
   .bxd-logo {
     padding-left: -120px;
   }
@@ -136,5 +168,10 @@ body {
 
   .div-winners {
     width: 90vw;
+  }
+}
+@media (max-width: 350px) {
+  #link {
+    top: 10px;
   }
 }
