@@ -115,6 +115,12 @@ body {
   object-fit: contain;
 }
 
+#img1:hover,
+#img2:hover,
+#img3:hover {
+  filter: blur(3px);
+}
+
 #img2 {
   height: 100%;
   width: 100%;
