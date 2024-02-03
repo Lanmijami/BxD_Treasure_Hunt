@@ -109,6 +109,18 @@ body {
   padding: 1rem;
 }
 
+#img1 {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+#img2 {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
 @media (max-width: 1250px) {
   .div-helper {
     font-size: 2rem;
