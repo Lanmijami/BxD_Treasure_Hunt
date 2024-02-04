@@ -126,6 +126,11 @@ body {
   width: 100%;
   object-fit: contain;
 }
+#img3 {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
 
 @media (max-width: 1250px) {
   .div-helper {
